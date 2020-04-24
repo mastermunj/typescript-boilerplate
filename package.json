@@ -6,7 +6,7 @@
   "author": "Munjal Dhamecha",
   "main": "dist/index.js",
   "scripts": {
-    "build": "npm run clean && tsc --noEmit",
+    "build": "npm run clean && tsc --noEmitOnError",
     "build:watch": "npm run build -- --watch",
     "clean": "rimraf dist coverage",
     "lint": "eslint --ext .js,.ts .",
