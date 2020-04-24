@@ -7,11 +7,14 @@ module.exports = {
   },
   plugins: [
     '@typescript-eslint',
+    'jest',
   ],
   extends: [
     'eslint:recommended',
     'plugin:@typescript-eslint/eslint-recommended',
     'plugin:@typescript-eslint/recommended',
+    'plugin:jest/recommended',
+    'plugin:jest/style',
     'prettier',
     'prettier/@typescript-eslint',
     'plugin:prettier/recommended',
@@ -21,5 +24,5 @@ module.exports = {
     node: true,
     commonjs: true,
     browser: false,
-  },
+  }
 };
