@@ -4,7 +4,11 @@
   "description": "TypeScript Boilerplate for Node.js Projects",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "rimraf dist coverage",
+    "build": "npm run clean && tsc --noEmit",
+    "build:watch": "npm run build -- --watch",
+    "lint": "eslint --ext .js,.ts .",
+    "lint:fix": "npm run lint -- --fix"
   },
   "author": "Munjal Dhamecha",
   "license": "MIT",
@@ -16,6 +20,7 @@
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-prettier": "^3.1.3",
     "prettier": "^2.0.5",
+    "rimraf": "^3.0.2",
     "typescript": "^3.8.3"
   }
 }
