@@ -1,0 +1,18 @@
+{
+  "name": "typescript-boilerplate",
+  "version": "0.0.0",
+  "description": "TypeScript Boilerplate for Node.js Projects",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Munjal Dhamecha",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^13.13.2",
+    "@typescript-eslint/eslint-plugin": "^2.29.0",
+    "@typescript-eslint/parser": "^2.29.0",
+    "eslint": "^6.8.0",
+    "typescript": "^3.8.3"
+  }
+}
