@@ -6,6 +6,9 @@ e() {
   echo "\n\n${green}$1${reset}"
 }
 
+e "Removing remote origin"
+git remote rm origin
+
 e "Creating new temporary branch"
 git checkout -b temporary
 
