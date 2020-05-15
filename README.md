@@ -27,5 +27,3 @@ The script does following:
 * Clears git commit history making the repo as good as fresh initiated
 * Runs npm install
 * Removes `reset.sh` file for safety
-* Adds all files to repo
-* Does initial commit
