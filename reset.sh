@@ -30,10 +30,10 @@ npm install
 e "Remove reset.sh for safety"
 rm reset.sh
 
-e "Add all files to repo"
-git add --all
+# e "Add all files to repo"
+# git add --all
 
-e "Doing initial commit"
-git commit -m "init: initial commit"
+# e "Doing initial commit"
+# git commit -m "init: initial commit"
 
 e "The project is ready!\n\n"
