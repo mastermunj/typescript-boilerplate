@@ -39,13 +39,13 @@
     "eslint-plugin-jest": "^23.17.0",
     "eslint-plugin-prettier": "^3.1.4",
     "husky": "^4.2.5",
-    "jest": "^25.5.4",
+    "jest": "^26.0.1",
     "lint-staged": "^10.2.11",
     "prettier": "^2.0.5",
     "rimraf": "^3.0.2",
     "sort-package-json": "^1.44.0",
     "standard-version": "^8.0.0",
-    "ts-jest": "^25.5.1",
+    "ts-jest": "^26.1.0",
     "typescript": "^3.9.5"
   }
 }
