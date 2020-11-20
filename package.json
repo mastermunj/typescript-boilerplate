@@ -43,7 +43,7 @@
     "lint-staged": "^10.5.1",
     "prettier": "^2.1.2",
     "rimraf": "^3.0.2",
-    "sort-package-json": "^1.46.1",
+    "sort-package-json": "^1.47.0",
     "standard-version": "^9.0.0",
     "ts-jest": "^26.4.4",
     "typescript": "^4.0.5"
