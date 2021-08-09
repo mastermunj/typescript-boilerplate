@@ -9,7 +9,7 @@
     "build": "npm run clean && tsc --noEmitOnError",
     "build:watch": "npm run build -- --watch",
     "clean": "rimraf dist coverage",
-    "lint": "eslint --ext .js,.ts .",
+    "lint": "eslint --ext .ts .",
     "lint:fix": "npm run lint -- --fix",
     "release": "standard-version",
     "release:mock": "npm run release -- --dry-run",
