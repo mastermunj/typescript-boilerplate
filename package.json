@@ -9,14 +9,14 @@
     "build": "npm run clean && tsc --noEmitOnError",
     "build:watch": "npm run build -- --watch",
     "clean": "rimraf dist coverage",
+    "commit": "git-cz",
     "lint": "eslint --ext .ts .",
     "lint:fix": "npm run lint -- --fix",
+    "prepare": "husky install",
     "release": "standard-version",
     "release:mock": "npm run release -- --dry-run",
     "test": "jest --detectOpenHandles --coverage",
-    "test:watch": "npm run test -- --watch",
-    "prepare": "husky install",
-    "commit": "git-cz"
+    "test:watch": "npm run test -- --watch"
   },
   "config": {
     "commitizen": {
@@ -28,10 +28,10 @@
     "@commitlint/config-conventional": "^13.2.0",
     "@types/jest": "^27.0.2",
     "@types/node": "^16.11.6",
-    "@typescript-eslint/eslint-plugin": "^4.33.0",
-    "@typescript-eslint/parser": "^4.33.0",
+    "@typescript-eslint/eslint-plugin": "^5.2.0",
+    "@typescript-eslint/parser": "^5.2.0",
     "cz-conventional-changelog": "^3.3.0",
-    "eslint": "^7.32.0",
+    "eslint": "^8.1.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-jest": "^25.2.2",
     "eslint-plugin-prettier": "^4.0.0",
