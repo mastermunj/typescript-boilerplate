@@ -39,7 +39,7 @@
     "jest": "^27.5.1",
     "lint-staged": "^13.1.0",
     "prettier": "^2.8.2",
-    "rimraf": "^4.0.2",
+    "rimraf": "^4.0.7",
     "sort-package-json": "^1.57.0",
     "standard-version": "^9.5.0",
     "ts-jest": "^27.1.4",
