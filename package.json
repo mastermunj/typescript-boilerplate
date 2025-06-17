@@ -28,7 +28,7 @@
     "@commitlint/config-conventional": "^19.8.1",
     "@types/jest": "^30.0.0",
     "@types/node": "^24.0.1",
-    "@typescript-eslint/eslint-plugin": "^8.34.0",
+    "@typescript-eslint/eslint-plugin": "^8.34.1",
     "@typescript-eslint/parser": "^8.34.1",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^9.29.0",
