@@ -1,3 +1,4 @@
+import { describe, expect, test } from 'vitest';
 import { Gender, Person } from '../src/index';
 
 describe('Person name: Jim, gender: Male', () => {

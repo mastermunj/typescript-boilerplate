@@ -3,7 +3,7 @@
 ## Features
 * Latest & Greatest [TypeScript](https://github.com/Microsoft/TypeScript)
 * [EsLint](https://github.com/eslint/eslint) & [Prettier](https://github.com/prettier/prettier) with recommended rules
-* [Jest](https://github.com/facebook/jest) & [ts-jest](https://github.com/kulshekhar/ts-jest) for unit tests
+* [Vitest](https://github.com/vitest-dev/vitest) for unit tests
 * NPM scripts for build, lint, test & release
 * [Commitlint](https://github.com/conventional-changelog/commitlint/) for ensuring [conventional commit format](https://www.conventionalcommits.org/)
 * [Standard Version](https://github.com/conventional-changelog/standard-version) for easy release management using [semver](https://github.com/semver/semver)
